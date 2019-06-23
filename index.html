@@ -1,18 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <title>Psychic Game</title>
+	<meta charset="utf-8">
+	<title>Psychic Game</title>
     
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    
+
 </head>
 <body>
 <header>
@@ -20,35 +17,29 @@
 	  <h1>The Psychic Game </h1>
 	</div>
 </header>
-  
 <div class="container">
-        <h2>Guess what letter I'm thinking of</h2>
-        <div class="row">
-            <div class="col-md-4">
-                    <img src="assets/images/psychic-ability.jpg" class="thumbnail" alt="psychic" width="250" height="150">
-            </div>
-            <div class="col-md-4">
-                    <ul id="space" class="list-group">
-                        <li class="list-group-item" id="wins">Wins:</li>
-                        <li class="list-group-item" id="lose">Loses:</li>
-                        <li class="list-group-item" id="guessesLeft">Guesses Left:</li>
-                        <li class="list-group-item" id="letter">Your Guesses so far:</li>
-                    </ul> 
-            </div>
-            <div class="col-md-2">
-                    <img src="assets/images/gasm.jpg" class="thumbnail" alt="brain-blast" width="250" height="150">
-            </div>  
-
-        </div>
+	<h2>Guess what letter I'm thinking of</h2>
+	<div class="row">
+		<div class="col-md-4">
+                                <img src="assets/images/psychic-ability.jpg" class="thumbnail" alt="psychic" width="250" height="150">
+		</div>
+		<div class="col-md-4">
+			<ul id="space" class="list-group">
+				<li class="list-group-item" id="wins">Wins:</li>
+				<li class="list-group-item" id="loses">Loses:</li>
+				<li class="list-group-item" id="guessesLeft">Guesses Left:</li>
+				<li class="list-group-item" id="letterUser">Your Guesses so far:</li>
+			</ul>
+		</div>
+		<div class="col-md-2">
+                                <img src="assets/images/gasm.jpg" class="thumbnail" alt="brain-blast" width="250" height="150">
+		</div>
+	</div>
 </div>
-
 <div class="footer">
 	&copy;Copyright 2019 Minh Pham
 </div>
-    
-<!-- Link to JavaScript game.js -->
-
-<script type="text/javascript" src="asset/javavscript/game.js"></script>
-
+<!-- Javascript game.js -->
+<script src="assets/javascript/game.js"></script>
 </body>
 </html>

@@ -4,7 +4,7 @@ var computerChoices = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l
 // Setting for zero
 var wins = 0;
 var loses = 0;
-var guessesLeft = 10;
+var guessesLeft = 9;
 var letterUser = [];
 var eachofLetters = null;
 
@@ -28,11 +28,6 @@ var restart = function() {
 	var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
 }
 
-const setBackground = (image) => {
-	document.body.style.background = "url('"+IMAGE_URLS.[image]+"')";
-  };
-
-
 // When the user presses a key, it will run the following function..
 document.onkeyup = function(event) {
 	guessesLeft--;
@@ -50,7 +45,7 @@ document.onkeyup = function(event) {
 	} 
 	else if (guessesLeft === 0) {
 		losses++;
-		document.querySelector("#lose").innerHTML = "Loses: " + losses;
+		document.querySelector("#loses").innerHTML = "Loses: " + losses;
 		restart();
 	}
   };

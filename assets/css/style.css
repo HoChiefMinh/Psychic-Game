@@ -17,90 +17,81 @@ html {
       width: 100%;
       max-width: 950px;
       margin: 0 auto;
-      float:left;
   }
   
   .thumbnail {
-      display: block;
-      padding: 4px;
-      margin-bottom: 20px;
-      line-height: 1.5;
-      background-color: purple;
-      border: 1px solid greenyellow;
-      border-radius: 4px;
-      transition: border .2s;
-      float: left;
-  }
 
-    .listed-group {
-        border-radius: 4px;
-        padding-left: 0;
-        margin-bottom: 20px;
-    }
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    background-color: purple;
+    border: 1px solid greenyellow;
+    border-radius: 4px;
+    transition: border .2s;
+    float: left;
+
+}
 
   #space {
       margin-top: 15px;
   }
   
   .footer {
-      right: 0;
-      left: 0;
-      bottom: 0;
-        position: absolute;
-      background: blue;
-      text-align: center;
-      font-size: 30px;
-      color: black;
-        padding: 1rem;
-  }
-
-  img{
-      vertical-align: middle;
-  }
+    right: 0;
+    left: 0;
+    bottom: 0;
+      position: absolute;
+    background: blue;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+      padding: 1rem;
+}
   
   /*MEDIA QUERIES*/
-
+  
   @media screen and (max-width: 980px){
-	#psychic-ability {
-		margin-left: 175px;
-	}
-
-	#psychic {
-		margin-left: 165px;
-	}
-
-	#gasm {
-		margin-right: 180px;
-	}
-
-}
-
-
-@media only screen and (max-width: 768px){
-
-	#psychic {
-		margin-left: 170px;
-	}
-
-}
-
-
-@media only screen and (max-width: 640px){
-
-	h2 {
-		margin-left: 70px;
-	}
-
-	#psychic-image {
-		margin-left: 150px;
-	}
-
-	#psychic {
-		margin-left: 145px;
-	}
-
-	#psychics-image {
-		margin-right: 100px;
-	}
-
-}
+      #psychic-image {
+          margin-left: 175px;
+      }
+  
+      #psychic {
+          margin-left: 165px;
+      }
+  
+      #psychics-image {
+          margin-right: 180px;
+      }
+  
+  }
+  
+  
+  @media only screen and (max-width: 768px){
+  
+      #psychic {
+          margin-left: 170px;
+      }
+  
+  }
+  
+  
+  @media only screen and (max-width: 640px){
+  
+      h2 {
+          margin-left: 70px;
+      }
+  
+      #psychic-image {
+          margin-left: 150px;
+      }
+  
+      #psychic {
+          margin-left: 145px;
+      }
+  
+      #psychics-image {
+          margin-right: 100px;
+      }
+  
+  }
